@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<View collection="datosgerlache_nut" xview="0.23">
+<GeographicMap>
+<MapDomain lat_min="-65.23103" lon_min="295.27038" lon_max="298.59188" lat_max="-63.92458"/>
+</GeographicMap>
+<MapWindow>
+<Symbol color="1" small_size="0.333333" size="-0.1" type="0"/>
+<Window>
+<Geometry y_projection="100" y_top="-63.9246" x_left="295.27" y_bottom="-65.231" x_right="298.592" y_length_bb="17" x_projection="100" y_offset_bb="2.5" x_offset_bb="2" x_length_bb="24"/>
+</Window>
+</MapWindow>
+<IsoSurfaceVariables>
+<!--Time @ Vessel=first-->
+<IsoVariable surface_value="first" var_id="1" surface_var_id="0"/>
+<!--conductivity [s/m] @ Vessel=first-->
+<IsoVariable surface_value="first" var_id="2" surface_var_id="0"/>
+<!--oxygen [mg/l] @ Vessel=first-->
+<IsoVariable surface_value="first" var_id="3" surface_var_id="0"/>
+<!--oxygen [% sat.] @ Vessel=first-->
+<IsoVariable surface_value="first" var_id="4" surface_var_id="0"/>
+</IsoSurfaceVariables>
+<CurrentSelection sampleID="0" stationID="11"/>
+</View>

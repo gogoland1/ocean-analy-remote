@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<View collection="data_from_GLODAPv2.2023" xview="0.23">
+<GeographicMap>
+<MapDomain lat_min="-24.37065" lon_max="288.21485" lat_max="-15.51298" lon_min="277.44610"/>
+</GeographicMap>
+<MapWindow>
+<Symbol type="0" small_size="0.170247" color="1" size="-0.1"/>
+<Window>
+<Geometry y_length_bb="7" y_offset_bb="1" y_top="-15.513" x_left="277.446" y_bottom="-24.3706" x_projection="100" x_offset_bb="1.5" x_length_bb="8" y_projection="100" x_right="288.215"/>
+</Window>
+</MapWindow>
+<DataWindow>
+<AxisVariables>
+<!--DEPTH [M]-->
+<xAxis var_id="1" var_list="1" is_reversed="F"/>
+<!--PRESSURE [DBAR]-->
+<yAxis var_id="0" var_list="1" is_reversed="T"/>
+</AxisVariables>
+<Modes plot_mode="0" window_type="0" window_mode="0"/>
+<DataMark color="17" size="0.2"/>
+<Window>
+<Geometry y_length_bb="3.9" y_offset_bb="15.8" y_top="1e+10" x_left="-1e+10" y_bottom="-1e+10" x_offset_bb="2.5" x_length_bb="7" x_right="1e+10"/>
+</Window>
+</DataWindow>
+<DataWindow>
+<AxisVariables>
+<!--TEMPERATURE [DEG C]-->
+<xAxis var_id="2" var_list="1" is_reversed="F"/>
+<!--PRESSURE [DBAR]-->
+<yAxis var_id="0" var_list="1" is_reversed="T"/>
+</AxisVariables>
+<Modes plot_mode="0" window_type="0" window_mode="0"/>
+<DataMark color="17" size="0.2"/>
+<Window>
+<Geometry y_length_bb="3.9" y_offset_bb="10" y_top="1e+10" x_left="-1e+10" y_bottom="-1e+10" x_offset_bb="2.5" x_length_bb="7" x_right="1e+10"/>
+</Window>
+</DataWindow>
+<DataWindow>
+<AxisVariables>
+<!--SALNTY [PSS-78]-->
+<xAxis var_id="3" var_list="1" is_reversed="F"/>
+<!--PRESSURE [DBAR]-->
+<yAxis var_id="0" var_list="1" is_reversed="T"/>
+</AxisVariables>
+<Modes plot_mode="0" window_type="0" window_mode="0"/>
+<DataMark color="17" size="0.2"/>
+<Window>
+<Geometry y_length_bb="7.7" y_offset_bb="12" y_top="1e+10" x_left="-1e+10" y_bottom="-1e+10" x_offset_bb="12" x_length_bb="7" x_right="1e+10"/>
+</Window>
+</DataWindow>
+<DataWindow>
+<AxisVariables>
+<!--OXYGEN [UMOL/KG]-->
+<xAxis var_id="4" var_list="1" is_reversed="F"/>
+<!--PRESSURE [DBAR]-->
+<yAxis var_id="0" var_list="1" is_reversed="T"/>
+</AxisVariables>
+<Modes plot_mode="0" window_type="0" window_mode="0"/>
+<DataMark color="17" size="0.2"/>
+<Window>
+<Geometry y_length_bb="7.7" y_offset_bb="12" y_top="1e+10" x_left="-1e+10" y_bottom="-1e+10" x_offset_bb="21.5" x_length_bb="7" x_right="1e+10"/>
+</Window>
+</DataWindow>
+<DataWindow>
+<AxisVariables>
+<!--PHSPHT [UMOL/KG]-->
+<xAxis var_id="5" var_list="1" is_reversed="F"/>
+<!--PRESSURE [DBAR]-->
+<yAxis var_id="0" var_list="1" is_reversed="T"/>
+</AxisVariables>
+<Modes plot_mode="0" window_type="0" window_mode="0"/>
+<DataMark color="17" size="0.2"/>
+<Window>
+<Geometry y_length_bb="7.7" y_offset_bb="2" y_top="1e+10" x_left="-1e+10" y_bottom="-1e+10" x_offset_bb="12" x_length_bb="7" x_right="1e+10"/>
+</Window>
+</DataWindow>
+<DataWindow>
+<AxisVariables>
+<!--SILCAT [UMOL/KG]-->
+<xAxis var_id="6" var_list="1" is_reversed="F"/>
+<!--PRESSURE [DBAR]-->
+<yAxis var_id="0" var_list="1" is_reversed="T"/>
+</AxisVariables>
+<Modes plot_mode="0" window_type="0" window_mode="0"/>
+<DataMark color="17" size="0.2"/>
+<Window>
+<Geometry y_length_bb="7.7" y_offset_bb="2" y_top="1e+10" x_left="-1e+10" y_bottom="-1e+10" x_offset_bb="21.5" x_length_bb="7" x_right="1e+10"/>
+</Window>
+</DataWindow>
+<IsoSurfaceVariables>
+<!--DEPTH [M] @ PRESSURE [DBAR]=first-->
+<IsoVariable var_id="1" surface_var_id="0" surface_value="first"/>
+<!--TEMPERATURE [DEG C] @ PRESSURE [DBAR]=first-->
+<IsoVariable var_id="2" surface_var_id="0" surface_value="first"/>
+<!--SALNTY [PSS-78] @ PRESSURE [DBAR]=first-->
+<IsoVariable var_id="3" surface_var_id="0" surface_value="first"/>
+<!--OXYGEN [UMOL/KG] @ PRESSURE [DBAR]=first-->
+<IsoVariable var_id="4" surface_var_id="0" surface_value="first"/>
+</IsoSurfaceVariables>
+<CurrentSelection stationID="4773" sampleID="0"/>
+</View>

@@ -1,0 +1,66 @@
+
+[General]
+CollectionFormat = ODVCF6
+DataField = GeneralField
+DataType = GeneralType
+Description = Spreadsheet import data
+NumberOfMetaVariables = 15
+NumberOfVariables = 36
+PrimaryVariableIndex = 1
+SampleQualityFlagSchema = ODV
+StationQualityFlagSchema = ODV
+
+[Meta Variables]
+0001 = Cruise;;INDEXED_TEXT;4;0;0;ODV;METACRUISE;
+0002 = Station;;TEXT;21;0;0;ODV;METASTATION;
+0003 = Type;;TEXT;2;0;0;ODV;METATYPE;
+0004 = Longitude;degrees_east;FLOAT;4;3;0;ODV;METALONGITUDE;
+0005 = Latitude;degrees_north;FLOAT;4;3;0;ODV;METALATITUDE;
+0006 = Year;;SHORT;2;0;0;ODV;METAYEAR;
+0007 = Month;;BYTE;1;0;0;ODV;METAMONTH;
+0008 = Day;;BYTE;1;0;0;ODV;METADAY;
+0009 = Hour;;BYTE;1;0;0;ODV;METAHOUR;
+0010 = Minute;;BYTE;1;0;0;ODV;METAMINUTE;
+0011 = Second;;FLOAT;4;0;0;ODV;METASECOND;
+0012 = Accession Number;;UNSIGNED_INTEGER;4;0;0;ODV;METAACCESSIONNUMBER;
+0013 = PrimaryVarMin;;FLOAT;4;2;0;ODV;METAPRIMVARMIN;
+0014 = PrimaryVarMax;;FLOAT;4;2;0;ODV;METAPRIMVARMAX;
+0015 = Bot. Depth;m;FLOAT;4;0;0;ODV;METABOTDEPTH;
+
+[Variables]
+0001 = Vessel;;FLOAT;4;2;0;ODV;BASIC;
+0002 = Time;;FLOAT;4;2;0;ODV;BASIC;
+0003 = conductivity;s/m;FLOAT;4;2;0;ODV;BASIC;
+0004 = oxygen;mg/l;FLOAT;4;2;0;ODV;BASIC;
+0005 = oxygen;% sat.;FLOAT;4;2;0;ODV;BASIC;
+0006 = pressure;db;FLOAT;4;2;0;ODV;BASIC;
+0007 = temperature;ºC;FLOAT;4;2;0;ODV;BASIC;
+0008 = salinity;PSU;FLOAT;4;2;0;ODV;BASIC;
+0009 = depth;m;FLOAT;4;2;0;ODV;BASIC;
+0010 = Fluorescence;mg/m3;FLOAT;4;2;0;ODV;BASIC;
+0011 = PAR;umol photons/m2/s;FLOAT;4;2;0;ODV;BASIC;
+0012 = Turbidity;NTU;FLOAT;4;2;0;ODV;BASIC;
+0013 = Pot. Temp.;ºC;FLOAT;4;2;0;ODV;BASIC;
+0014 = density;kg/m3;FLOAT;4;2;0;ODV;BASIC;
+0015 = dFe;nM;FLOAT;4;2;0;ODV;BASIC;
+0016 = dMn;nM;FLOAT;4;2;0;ODV;BASIC;
+0017 = Chl-A;ug/L;FLOAT;4;2;0;ODV;BASIC;
+0018 = phaeopigments;ug/L;FLOAT;4;2;0;ODV;BASIC;
+0019 = ISM;mg/L;FLOAT;4;2;0;ODV;BASIC;
+0020 = OSM;mg/L;FLOAT;4;2;0;ODV;BASIC;
+0021 = % organic;;FLOAT;4;2;0;ODV;BASIC;
+0022 = bruntvaisala;;FLOAT;4;2;0;ODV;BASIC;
+0023 = MLD;;FLOAT;4;2;0;ODV;BASIC;
+0024 = O2;umol/L;FLOAT;4;2;0;ODV;BASIC;
+0025 = density in situ;;FLOAT;4;2;0;ODV;BASIC;
+0026 = O2;umol/kg;FLOAT;4;2;0;ODV;BASIC;
+0027 = turnerangle;;FLOAT;4;2;0;ODV;BASIC;
+0028 = sig_delta_50;;FLOAT;4;2;0;ODV;BASIC;
+0029 = sig_avg_50;;FLOAT;4;2;0;ODV;BASIC;
+0030 = 1_avg;;FLOAT;4;2;0;ODV;BASIC;
+0031 = dsig_dz;;FLOAT;4;2;0;ODV;BASIC;
+0032 = E;;FLOAT;4;2;0;ODV;BASIC;
+0033 = E*103;;FLOAT;4;2;0;ODV;BASIC;
+0034 = silicate;;FLOAT;4;2;0;ODV;BASIC;
+0035 = nitrate;;FLOAT;4;2;0;ODV;BASIC;
+0036 = phosphate;;FLOAT;4;2;0;ODV;BASIC;

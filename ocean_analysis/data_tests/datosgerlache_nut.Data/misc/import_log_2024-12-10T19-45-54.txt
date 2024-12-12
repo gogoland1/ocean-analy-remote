@@ -1,0 +1,50 @@
+	-----File Import Start
+	
+	>>Collection:	D:/agent_oceanic/ocean_analysis/data_tests/datosgerlache_nut
+	
+	Variables:
+		1: Vessel	
+		2: Time	
+		3: conductivity [s/m]	
+		4: oxygen [mg/l]	
+		5: oxygen [% sat.]	
+		6: pressure [db]	
+		7: temperature [ºC]	
+		8: salinity [PSU]	
+		9: depth [m]	
+		10: Fluorescence [mg/m3]	
+		11: PAR [umol photons/m2/s]	
+		12: Turbidity [NTU]	
+		13: Pot. Temp. [ºC]	
+		14: density [kg/m3]	
+		15: dFe [nM]	
+		16: dMn [nM]	
+		17: Chl-A [ug/L]	
+		18: phaeopigments [ug/L]	
+		19: ISM [mg/L]	
+		20: OSM [mg/L]	
+		21: % organic	
+		22: bruntvaisala	
+		23: MLD	
+		24: O2 [umol/L]	
+		25: density in situ	
+		26: O2 [umol/kg]	
+		27: turnerangle	
+		28: sig_delta_50	
+		29: sig_avg_50	
+		30: 1_avg	
+		31: dsig_dz	
+		32: E	
+		33: E*103	
+		34: silicate	
+		35: nitrate	
+		36: phosphate	
+	
+	ADD file: D:/agent_oceanic/ocean_analysis/data_tests/datosgerlache_nut.csv
+	38 station(s) processed successfully; 0 station(s) failed.
+	
+	
+	-----File Import End
+	
+	
+	IMPORT FILE SUMMARY: Total=1	Used=1	Errors=0	Warnings=0

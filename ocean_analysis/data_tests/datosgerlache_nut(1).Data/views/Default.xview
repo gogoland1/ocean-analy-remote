@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<View xview="0.23" collection="datosgerlache_nut(1)">
+<GeographicMap>
+<MapDomain lon_max="298.65573" lon_min="294.96238" lat_min="-65.23080" lat_max="-64.16255"/>
+</GeographicMap>
+<MapWindow>
+<Symbol color="1" type="0" small_size="0.333333" size="-0.1"/>
+<Window>
+<Geometry x_right="298.656" y_top="-64.1626" x_projection="100" x_left="294.962" x_length_bb="13.5" y_offset_bb="1.25" y_length_bb="6.5" y_projection="100" x_offset_bb="8" y_bottom="-65.2308"/>
+</Window>
+</MapWindow>
+<Section width="0.00131798">
+<xNodes>295.452,295.803,295.917,296.131,296.237,296.382,296.662,296.793</xNodes>
+<yNodes>-64.9779,-64.8953,-64.8254,-64.8774,-64.8789,-64.9355,-65.0314,-65.0627</yNodes>
+</Section>
+<DataWindow>
+<AxisVariables>
+<!--Section Distance [km]-->
+<xAxis is_reversed="F" var_id="200000" var_list="1"/>
+<!--depth [m]-->
+<yAxis is_reversed="T" var_id="8" var_list="1"/>
+<!--temperature [ºC]-->
+<zAxis is_reversed="F" var_id="6" var_list="1"/>
+</AxisVariables>
+<Modes window_mode="2" window_type="0" plot_mode="7"/>
+<Gridding auto_scale_lengths="T" y_scale_length="2.94285" x_scale_length="2.94285" draw_shaded="T"/>
+<BadEstimateHiding max_distance="7" hide="T"/>
+<DataMark color="17" size="0.2"/>
+<Window>
+<Geometry x_right="78.3322" y_top="0" x_left="0" x_length_bb="23" y_offset_bb="9.5" y_length_bb="9.6" x_offset_bb="3.5" y_bottom="500"/>
+<ColorScale z_range_start="-0.75" z_range_end="2.5"/>
+<GraphicsObjects>
+<GObject type="1" dragging="F" post_data="T" own_coordinates="F" is_automatic="T" clipping="F">
+<Annotation text="temperature [ºC]" frame_color="-1" angle="0" text_color="0" y_coordinate="19.3" background_color="-1" frame_type="0" font_size="16.6194" x_coordinate="26.5" text_alignment="4" frame_width="-1"/>
+</GObject>
+<GObject type="1" dragging="F" post_data="T" own_coordinates="F" is_automatic="T" clipping="F">
+<Annotation text="depth [m]" frame_color="-1" angle="90" text_color="0" y_coordinate="14.3" background_color="-1" frame_type="0" font_size="15.341" x_coordinate="2.26381" text_alignment="2" frame_width="-1"/>
+</GObject>
+<GObject type="1" dragging="F" post_data="T" own_coordinates="F" is_automatic="T" clipping="F">
+<Annotation text="Section Distance [km]" frame_color="-1" angle="0" text_color="0" y_coordinate="8.70634" background_color="-1" frame_type="0" font_size="15.341" x_coordinate="15" text_alignment="1" frame_width="-1"/>
+</GObject>
+</GraphicsObjects>
+</Window>
+</DataWindow>
+<BasicVariables>
+<!--temperature [ºC]-->
+<Variable var_id="6" max_value="2.500" min_value="-1.000"/>
+<!--depth [m]-->
+<Variable var_id="8" max_value="500.000" min_value="0.000"/>
+</BasicVariables>
+<IsoSurfaceVariables>
+<!--Time @ Vessel=first-->
+<IsoVariable var_id="1" surface_value="first" surface_var_id="0"/>
+<!--conductivity [s/m] @ Vessel=first-->
+<IsoVariable var_id="2" surface_value="first" surface_var_id="0"/>
+<!--oxygen [mg/l] @ Vessel=first-->
+<IsoVariable var_id="3" surface_value="first" surface_var_id="0"/>
+<!--oxygen [% sat.] @ Vessel=first-->
+<IsoVariable var_id="4" surface_value="first" surface_var_id="0"/>
+</IsoSurfaceVariables>
+</View>
